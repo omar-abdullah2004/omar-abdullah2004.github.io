@@ -1,0 +1,86 @@
+export const portfolioData = {
+  name: "Omar",
+  role: "AI Designer, AI Video Maker & Video Editor",
+  bio: "AI designer, AI video maker, and video editor, currently working at Mundo Media as AI Production Manager & AI Designer. My background in machine learning, data science, and automation supports my creative production work.",
+  email: "omar2004jamal@gmail.com",
+  socials: {
+    github: "https://github.com/omar-abdullah2004",
+    linkedin: "https://www.linkedin.com/in/omar-abdullah-562894256",
+    instagram: "https://www.instagram.com/omar.abdullah04/",
+  },
+  skills: [
+    { name: "AI Design", category: "Creative Production" },
+    { name: "AI Video Creation", category: "Creative Production" },
+    { name: "Video Editing", category: "Creative Production" },
+    { name: "Python", category: "Languages" },
+    { name: "SQL", category: "Languages" },
+    { name: "scikit-learn", category: "AI / ML" },
+    { name: "Generative AI", category: "AI / ML" },
+    { name: "Prompt Engineering", category: "AI / ML" },
+    { name: "pandas", category: "Data" },
+    { name: "NumPy", category: "Data" },
+    { name: "Data Visualization", category: "Data" },
+    { name: "n8n / Automations", category: "AI Automation" },
+    { name: "Git", category: "Tools" },
+    { name: "Jupyter", category: "Tools" },
+  ],
+  experience: [
+    {
+      company: "Mundo Media",
+      role: "AI Production Manager & AI Designer",
+      period: "Jul 2026 - Present",
+      description: "Returned to Mundo Media after Prompts. Manage AI production and create AI designs in my current role.",
+    },
+    {
+      company: "Prompts | Post Production House",
+      role: "AI Automation & Campaigns Production",
+      period: "May 2026 - Jun 2026",
+      description: "Produced AI-generated creative (images/video) for campaigns and built internal automation workflows connecting AI models with operations tools.",
+    },
+    {
+      company: "Mundo Media",
+      role: "AI Marketing Specialist",
+      period: "Feb 2026 - Apr 2026",
+      description: "Produced AI-generated marketing creative for client campaigns and built internal automation workflows to reduce manual effort.",
+    },
+    {
+      company: "Mundo Tours",
+      role: "AI Creative Producer",
+      period: "Jan 2026 - Present",
+      description: "Designed prompt sets and visual concepts to generate realistic travel marketing content using generative AI.",
+    },
+    {
+      company: "Texum Jordan",
+      role: "Data Science Intern",
+      period: "Apr 2025 - Jul 2025",
+      description: "Performed exploratory data analysis, cleaned raw datasets, and built machine learning models in Python for internal use cases.",
+    },
+  ],
+  projects: [
+    {
+      title: "SMS Spam Detection Chatbot",
+      description: "Built and compared multiple ML models, achieving up to 84% accuracy (SVM); developed a real-time spam classification system with a GUI.",
+      tech: ["Python", "scikit-learn", "TensorFlow", "XGBoost", "Tkinter"],
+      link: "#",
+    },
+    {
+      title: "AI-Driven Lung Cancer Risk Detection",
+      description: "Developed a portable, real-time detection system integrated with a mobile app for scalable, non-invasive early screening.",
+      tech: ["Random Forest", "SVM", "Flutter", "Bluetooth"],
+      link: "#",
+    },
+    {
+      title: "AI Caption Generator (UGC)",
+      description: "Built an end-to-end AI-powered system that generates tailored captions with a web interface and automated content delivery pipeline.",
+      tech: ["LLM API", "JavaScript", "HTML/CSS", "Webhook"],
+      link: "#",
+    },
+    {
+      title: "AI Caption Generator (Multi-Model)",
+      description: "Designed a multi-model AI pipeline using conditional routing to compare and refine outputs, improving content quality.",
+      tech: ["LLM APIs", "n8n", "JavaScript", "HTML/CSS"],
+      link: "#",
+    },
+  ],
+};
+
