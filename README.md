@@ -10,6 +10,6 @@ Run `npm ci`, then `npm run dev`.
 
 The GitHub Pages workflow builds and publishes changes pushed to `main`.
 The site is designed for the root of the account's `username.github.io` repository.
-Set `GITHUB_PAGES=true` when building a static export locally; the finished website is written to `out`.
+Set `GITHUB_PAGES=true` when building a static export locally; the finished website is written to `.next-publish`.
 
 Media included in this portfolio belongs to its respective creators and brands.
